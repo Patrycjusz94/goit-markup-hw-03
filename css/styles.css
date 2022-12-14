@@ -4,8 +4,6 @@
     --color-red: #a52a2a;
     --color-gray: #757575;
     --color-white: #FFFFFF;
-    --color-line: 
-
 }
 
 * {
@@ -228,7 +226,7 @@ body {
     line-height: 1.166;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--color-black);
 }
 
 .team-list {
@@ -316,6 +314,7 @@ button[type="button"]:focus {
     justify-content: center;
     gap: 30px;
 }
+
 .project-figure {
     width: 370px;
     height: 404px;
